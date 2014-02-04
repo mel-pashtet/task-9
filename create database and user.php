@@ -7,4 +7,5 @@ mysql_query("CREATE USER 'user' @ 'localhost' IDENTIFIED BY 'some_pass'");     /
 
 mysql_query("GRANT ALL PRIVILEGES ON `text_notes` . * TO 'user' IDENTIFIED BY 'some_pass'");
 
+
 ?>
